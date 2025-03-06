@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot CDN Test</title>
+  <link rel="stylesheet" href="./dist/chatbot_ui.css"></style>
+</head>
+<body>
+
+  <div id="root"></div>
+
+  <!-- React and ReactDOM from CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Load Chatbot Component from CDN -->
+  <script src="./dist/chatbot.umd.js"></script>
+
+  <script>
+    // const ChatbotComponent = React.createElement(Chatbot);
+    // const container = document.getElementById("chatbot-container");
+    // const root = ReactDOM.createRoot(container);
+    // root.render(ChatbotComponent);
+    //ReactDOM.render(ChatbotComponent, document.getElementById('chatbot-container'));
+
+  </script>
+
+</body>
+</html>
